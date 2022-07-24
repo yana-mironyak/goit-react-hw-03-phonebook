@@ -12,7 +12,7 @@ const schema = yup.object().shape({
 
 const ContactsForm = ({initialValues, onSubmit}) => {
     return <Formik initialValues={initialValues} validationSchema={schema} onSubmit={onSubmit}>
-        <Form autoComplete='off'>
+        <Form autoComplete='on'>
         <label className={css.contact} htmlFor='name'>
             Name
             <Field className={css.contactInput}type='text' name='name'/>
