@@ -1,0 +1,10 @@
+.filterName {
+    font-size: 20px;
+}
+
+.filter {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

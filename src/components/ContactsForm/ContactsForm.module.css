@@ -1,0 +1,31 @@
+.contact {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contactInput {
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contactButton {
+    display: block;
+    border-radius: 5px;
+    border-color: rgb(233, 227, 227);
+    text-transform: capitalize;
+    transition: background-color 100ms;
+}
+
+.contactButton:active {
+    background-color: rgb(153, 153, 211);
+    transition: background-color 0ms;
+}
+
+.contactError {
+    font-size: 15px;
+    color: red;
+    font-style: italic;
+}
+
